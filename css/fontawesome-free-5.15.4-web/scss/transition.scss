@@ -1,0 +1,231 @@
+.testanim-leave-active {
+  transition: all .25s ease;
+}
+
+.testanim-leave-from {
+  opacity: 1;
+}
+
+.testanim-leave-to {
+  opacity: 0;
+}
+
+.testanim-enter-active {
+  transition: all .25s ease;
+}
+
+// .testanim-enter,
+// .testanim-leave-to {
+//   transform: translateX(20px);
+//   opacity: 0;
+// }
+
+.testanim-enter, .testanim-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.testanim-enter, .testanim-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.testanim-leave-active {
+  /* position: absolute; */
+}
+
+.testanim-move {
+  transition: all .25s ease;
+}
+
+.slide-fade-enter-active {
+  transition: all .1s ease;
+}
+
+.slide-fade-leave-active {
+  transition: all .1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.slide-fade-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+
+.chat-fade-enter-active {
+  transition: all .2s ease;
+  position: absolute;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.chat-fade-leave-active {
+  position: absolute;
+  transition: all .2s ease;
+}
+
+.chat-fade-enter-to {
+  transform: translateY(0);
+  opacity: 1;
+}
+.chat-fade-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.chat-fade-out-enter-active {
+  transition: all .2s ease;
+  position: absolute;
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.chat-fade-out-leave-active {
+  position: absolute;
+  transition: all .2s ease;
+  transform: translateY(-100%);
+}
+
+.chat-fade-out-enter-to {
+  transform: translateY(0%);
+
+  opacity: 1;
+}
+.chat-fade-out-leave-to {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+
+
+.answer-field-enter-active {
+  transition: all .2s ease;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.answer-field-leave-active {
+  transition: all .2s ease;
+}
+
+.answer-field-enter-to {
+  transform: translateY(0);
+  opacity: 1;
+}
+.answer-field-leave-to {
+  transform: translateY(100%);
+  //opacity: 0;
+}
+
+
+.attachment-field-enter-active {
+  transition: all .2s ease;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.attachment-field-leave-active {
+  transition: all .2s ease;
+}
+
+.attachment-field-enter-to {
+  transform: translateY(0);
+  opacity: 1;
+}
+.attachment-field-leave-to {
+  transform: translateY(100%);
+  //opacity: 0;
+}
+
+
+
+.number-change-enter-active {
+  transition: all .2s ease;
+  transform: translateY(-100%);
+  opacity: 0;
+  right: 0;
+  position: absolute;
+}
+
+.number-change-leave-active {
+  transition: all .2s ease;
+  position: absolute;
+  right: 0;
+  transform: translateY(0%);
+}
+
+.number-change-enter-to {
+  transform: translateY(0);
+  opacity: 1;
+}
+.number-change-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+
+
+.modal-open-enter-active {
+  transition: all .2s ease;
+  transform: scaleY(0);
+}
+
+.modal-open-leave-active {
+  transition: all .2s ease;
+  transform: scaleY(1);
+}
+
+.modal-open-enter-to {
+  transform: scaleY(1);
+}
+.modal-open-leave-to {
+  transform: scaleY(0);
+}
+
+
+
+.fullscreen-fade-enter-active {
+  transition: all .2s ease;
+  position: absolute;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.fullscreen-fade-leave-active {
+  position: absolute;
+  transition: all .2s ease;
+}
+
+.fullscreen-fade-enter-to {
+  transform: translateX(0);
+  opacity: 1;
+}
+.fullscreen-fade-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.fullscreen-fade-out-enter-active {
+  transition: all .2s ease;
+  position: absolute;
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.fullscreen-fade-out-leave-active {
+  position: absolute;
+  transition: all .2s ease;
+}
+
+.fullscreen-fade-out-enter-to {
+  transform: translateX(0);
+  opacity: 1;
+}
+.fullscreen-fade-out-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}

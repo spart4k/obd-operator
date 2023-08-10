@@ -1,0 +1,19 @@
+.logs {
+  padding: 10px;
+}
+.logs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.logs-list-element {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.logs-list-element:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
